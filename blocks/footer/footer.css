@@ -1,0 +1,28 @@
+.footer {
+  min-width: 1184px;
+  margin: 0 auto 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1279px) {
+  .footer {
+    min-width: 1024px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .footer {
+    min-width: 720px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .footer {
+    margin-left: 10px;
+    margin-top: 65px;
+    min-width: 186px;
+    display: flex;
+    flex-direction: column;
+  }
+}

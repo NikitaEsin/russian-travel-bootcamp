@@ -1,0 +1,29 @@
+.intro {
+  width: 84%;
+  margin: 92px auto;
+  display: flex;
+  flex-direction: column;
+
+}
+
+@media all and (min-width: 1024px) and (max-width: 1279px) {
+  .intro {
+    margin-left: 37px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .intro {
+    margin-left: 26px;
+    margin-top: 95px;
+    width: 90%; 
+  }
+}
+
+@media all and (max-width: 767px) {
+  .intro {
+    min-width: 274px;
+    margin: 64px 0 0;
+    margin-left: 12px;
+  }
+}
