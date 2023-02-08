@@ -15,7 +15,7 @@
     }
   }
 
-  @media all and (max-width: 767px) and (max-width: 1023px) {
+  @media all and (max-width: 767px) {
     .intro__text {
       line-height: 155%;
     }

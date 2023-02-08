@@ -8,7 +8,7 @@
   align-items: center;
 }
 
-@media all and (min-width: 1024px) and (max-width: 1279px) {
+@media all and (max-width: 1279px) {
   .cover__background {
     margin: 0;
     width: 1024px;
@@ -17,7 +17,7 @@
   }
 }
 
-@media all and (min-width: 768px) and (max-width: 1023px) {
+@media all and (max-width: 1023px) {
   .cover__background {
     margin: 0;
     width: 768px;
