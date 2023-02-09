@@ -17,5 +17,6 @@
 @media all and (max-width: 767px) {
   .lead__image {
     width: 320px;
+    margin: 0 auto;
   }
 }

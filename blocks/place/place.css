@@ -20,6 +20,7 @@
 
 @media all and (max-width: 767px) {
   .place {
+    max-height: 1016px;
     grid-template-columns: 1fr;
   }
 }
