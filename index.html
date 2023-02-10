@@ -12,11 +12,11 @@
     <div class="page">
       <!-- Header -->
       <header class="header">
-        <img class="header__logo" src="images/logo.png" alt="Карта России" />
-        <nav class="header__lang-links">
-          <p class="header__lang-link header__lang-link_activ">Ru</p>
-          <p class="header__lang-link">En</p>
-        </nav>
+        <img class="header__logo" src="images/logo.svg" alt="Карта России" />
+        <div class="header__lang-links">
+          <a class="header__lang-link header__lang-link_activ">Ru</a>
+          <a class="header__lang-link">En</a>
+        </div>
       </header>
       <main class="content">
         <!-- Lead s1 -->
@@ -32,7 +32,7 @@
               alt="Карта пути от Пскова до Улан-удэ"
             />
             <figcaption class="lead__caption">
-              ВАША ПОЛКА &mdash; ВЕРХНЯЯ
+              ваша полка &mdash; верхняя
             </figcaption>
           </figure>
         </section>
@@ -52,11 +52,17 @@
             интересные места, достойные вашего отпуска.
           </p>
           <ul class="intro__list">
-            <li>Часовых поясов 11</li>
-            <li>Объектов природного наследия ЮНЕСКО 12</li>
-            <li>Объектов культурного наследия ЮНЕСКО 16</li>
-            <li>Природных заповедников 105</li>
-            <li>Аэропортов 241</li>
+            <li>Часовых поясов <span class="intro__span">11</span></li>
+            <li>
+              Объектов природного наследия ЮНЕСКО
+              <span class="intro__span">12</span>
+            </li>
+            <li>
+              Объектов культурного наследия ЮНЕСКО
+              <span class="intro__span">16</span>
+            </li>
+            <li>Природных заповедников <span class="intro__span">105</span></li>
+            <li>Аэропортов <span class="intro__span">241</span></li>
           </ul>
         </section>
         <!-- Photo-grid s3 -->
@@ -278,35 +284,33 @@
         <!-- Cover s5 -->
         <section class="cover">
           <a
-            class="cover__link"
+            class="cover__background"
             href="https://stampsy.com/na-elektrichkakh-do-baikala"
           >
-            <div class="cover__background">
-              <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
-              <p class="cover__subtitle">
-                По мотивам учебной темы о Транссибе — путешествие от столицы до
-                Байкала на электричках.
-              </p>
-            </div>
+            <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
+            <p class="cover__subtitle">
+              По мотивам учебной темы о Транссибе — путешествие от столицы до
+              Байкала на электричках.
+            </p>
             <div class="cover__overlay"></div>
           </a>
         </section>
-        <!-- Footer -->
-        <footer class="footer">
-          <div class="footer__links">
-            <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
-            <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
-            <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
-            <a class="footer__link" href="https://calendar.yandex.ru"
-              >Календарь</a
-            >
-            <a class="footer__link" href="https://travel.yandex.ru"
-              >Путешествия</a
-            >
-          </div>
-          <p class="footer__copyright">&copy; 2020. Никита</p>
-        </footer>
       </main>
+      <!-- Footer -->
+      <footer class="footer">
+        <nav class="footer__links">
+          <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
+          <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
+          <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
+          <a class="footer__link" href="https://calendar.yandex.ru"
+            >Календарь</a
+          >
+          <a class="footer__link" href="https://travel.yandex.ru"
+            >Путешествия</a
+          >
+        </nav>
+        <p class="footer__copyright">&copy; 2020. Никита</p>
+      </footer>
     </div>
   </body>
 </html>
