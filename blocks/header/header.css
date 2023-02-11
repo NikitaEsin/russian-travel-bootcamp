@@ -3,6 +3,7 @@
   margin: 28px 0 35px;
   display: flex;
   justify-content: space-between;
+  max-width: 1280px;
 }
 
 @media all and (max-width:1279px) {
