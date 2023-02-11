@@ -2,4 +2,4 @@
 
 - В этом спринте были использованы технологии по построении сетки страници Grid, Flexbox, CSS стили по БЕМ.
 - Сайт адапимпрван под разные устройства при помощи медиазапросов.
-- https://nikitaesin.github.io/russian-travel-bootcamp/index.html
+- https://nikitaesin.github.io/russian-travel-bootcamp/
