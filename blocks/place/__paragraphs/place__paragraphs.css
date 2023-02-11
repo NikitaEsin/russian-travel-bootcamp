@@ -4,16 +4,8 @@
   gap: 26px;
 }
 
-@media all and (max-width: 1023px) {
-  .place__paragraphs {
-    margin-top: 26px;
-    gap: 20px;
-  }
-}
-
 @media all and (max-width: 767px) {
   .place__paragraphs {
-    margin-top: 32px;
-    gap: 20px;
+    gap: 0;
   }
 }

@@ -2,25 +2,29 @@
   max-width: 984px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 460px 1fr;
+  row-gap: 48px;
+  column-gap: 40px;
 }
 
 @media all and (max-width: 1279px) {
   .place {
+    grid-template-columns: 440px 1fr;
     max-width: 928px;
   }
 }
 
 @media all and (max-width: 1023px) {
   .place {
+    grid-template-columns: 340px 1fr;
     max-width: 720px;
-    max-height: 535px;
   }
 }
 
 @media all and (max-width: 767px) {
   .place {
-    max-height: 1016px;
+    row-gap: 0;
+    max-width: 320px;
     grid-template-columns: 1fr;
   }
 }
