@@ -7,15 +7,3 @@
     margin: 0 0 33px;
     color: #FFFFFF;
 }
-
-@media all and (max-width: 1024px) {
-    .intro__text {
-      line-height: 163%;
-    }
-  }
-
-  @media all and (max-width: 767px) {
-    .intro__text {
-      line-height: 163%;
-    }
-  }

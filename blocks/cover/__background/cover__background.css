@@ -2,33 +2,34 @@
   background: url(../../../images/Cover-Trains.jpeg) 100% no-repeat;
   background-size: cover;
   text-decoration: none;
-  width: 1184px;
+  min-width: 1184px;
   min-height: 740px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-position: center;
   z-index: 0;
 }
 
 @media all and (max-width: 1279px) {
   .cover__background {
-    width: 1005px;
+    min-width: 1005px;
     min-height: 640px;
   }
 }
 
 @media all and (max-width: 1023px) {
   .cover__background {
-    width: 768px;
+    min-width: 768px;
     min-height: 480px;
   }
 }
 
 @media all and (max-width: 767px) {
   .cover__background {
-    width: 320px;
+    min-width: 320px;
     min-height: 200px;
   }
 }
