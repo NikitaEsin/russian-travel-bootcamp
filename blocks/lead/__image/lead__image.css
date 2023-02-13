@@ -1,4 +1,5 @@
 .lead__image {
+  margin: 0;
   width: 984px;
 }
 
@@ -10,7 +11,7 @@
 
 @media all and (max-width: 1023px) {
   .lead__image {
-    width: 767px;
+    width: 768px;
   }
 }
 

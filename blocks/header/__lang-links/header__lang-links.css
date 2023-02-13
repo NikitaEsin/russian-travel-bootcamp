@@ -3,3 +3,9 @@
     align-items: flex-end;
     gap: 20px;
 }
+
+@media all and (max-width: 767px) {
+    .header__lang-links {
+      align-self: center;
+    }
+  }

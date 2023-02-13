@@ -1,4 +1,5 @@
 .cover {
+min-width: 1184px;
 min-height: 740px;
 display: flex;
 flex-direction: column;
@@ -7,31 +8,23 @@ justify-content: center;
 position: relative;
 }
 
-.cover__background:hover::before {
-  content: '';
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  opacity: 0.8;
-  background-color: #2A2C2F;
-  transition: opacity 0.3s ease;
-}
-
 @media all and (max-width: 1279px) {
   .cover {
+    min-width: 1024px;
     min-height: 640px;
   }
 }
 
 @media all and (max-width: 1023px) {
   .cover {
-     min-height: 480px;
+    min-width: 768px;
+    min-height: 480px;
   }
 }
 
 @media all and (max-width: 767px) {
   .cover {
+    min-width: 320px;
     min-height: 200px;
   }
 }
