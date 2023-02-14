@@ -3,7 +3,8 @@
   margin-bottom: 92px;
   display: flex;
   flex-direction: column;
-justify-self: center;
+  justify-self: left;
+  margin-left: 100px;
 }
 
 @media all and (max-width: 1279px) {
@@ -17,6 +18,7 @@ justify-self: center;
     margin-left: 26px;
     margin-top: 95px;
     margin-bottom: 88px;
+    justify-self: center;
   }
 }
 
