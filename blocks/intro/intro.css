@@ -1,14 +1,14 @@
 .intro {
-  width: 84%;
-  margin: 92px auto;
+  margin-top: 92px;
+  margin-bottom: 92px;
   display: flex;
   flex-direction: column;
-
+justify-self: center;
 }
 
 @media all and (max-width: 1279px) {
   .intro {
-    margin-left: 37px;
+    margin-left: 48px;
   }
 }
 
@@ -16,7 +16,7 @@
   .intro {
     margin-left: 26px;
     margin-top: 95px;
-    width: 90%; 
+    margin-bottom: 88px;
   }
 }
 

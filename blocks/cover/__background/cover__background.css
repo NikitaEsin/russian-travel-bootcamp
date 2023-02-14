@@ -26,9 +26,15 @@
   transition: opacity 0.3s ease;
 }
 
+.cover__background:hover::before {
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+  background-color: #2A2C2F;
+}
+
 @media all and (max-width: 1279px) {
   .cover__background {
-    min-width: 1005px;
+    min-width: 1024px;
     min-height: 640px;
   }
 }
