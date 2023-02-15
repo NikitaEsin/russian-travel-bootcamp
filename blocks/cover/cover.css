@@ -15,7 +15,6 @@ position: relative;
 
 @media all and (max-width: 1023px) {
   .cover {
-    
     min-height: 480px;
   }
 }
