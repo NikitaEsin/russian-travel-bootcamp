@@ -2,7 +2,8 @@
   background: url(../../../images/Cover-Trains.png) 100% no-repeat;
   background-size: cover;
   text-decoration: none;
-  min-width: 1184px;
+  max-width: 1280px;
+  width: calc(100vw - 96px);
   min-height: 740px;
   margin: 0 auto;
   display: flex;
