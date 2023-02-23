@@ -20,7 +20,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  min-width: 100%;
+  width: 100%;
   height: 100%;
   opacity: 0.3;
   background-color: #2A2C2F;
@@ -36,18 +36,12 @@
     max-width: 1024px;
     min-height: 640px;
   }
-  .cover__background::before {
-    max-width: 100%;
-  }
 }
 
 @media all and (max-width: 1023px) {
   .cover__background {
     max-width: 768px;
     min-height: 480px;
-  }
-  .cover__background::before {
-    max-width: 100%;
   }
 }
 
@@ -56,7 +50,4 @@
     min-width: 320px;
     min-height: 200px;
   }
-  .cover__background::before {
-    max-width: 100%;
-  } 
 }
