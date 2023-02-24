@@ -27,7 +27,7 @@
   .photo-grid {
     margin-bottom: 62px;
     gap: 12px;
-    margin-top: 67px;
+    margin-top: 64px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(12, 1fr);
 
